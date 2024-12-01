@@ -40,7 +40,7 @@ void posicionarNavio(char tabuleiro[TAM][TAM], char *jogadorA, char *jogadorB)
     int linha, coluna;
     for (int i = 0; i < 4; i++)
     {
-        printf("Jogador %s, posicione o navio %d\n", jogadorA, i + 1);
+        printf("\nJogador %s, posicione o navio %d\n", jogadorA, i + 1);
         printf("Digite a linha e a coluna (0-10): ");
         scanf("%d %d", &linha, &coluna);
         if (tabuleiro[linha][coluna] != '~')
